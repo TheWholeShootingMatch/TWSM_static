@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+        </div>
+        <nav class="header_nav">
+            <ul>
+                <li>model</li>
+                <li>photographer</li>
+                <li>collaborate</li>
+                <li>mypage</li>
+                <li>sign in</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <div class="content">
+        <form class="new_collabo_form" action="" method="post">
+          <div class="title_area">
+            <p>title</p><input type="text" id="title" name="title">
+          </div>
+          <div class="compname_area">
+            <p>Corporation name</p><input type="text" id="corpname" name="corpname">
+          </div>
+          <div class="textfild_area">
+            <input type="text" id="textfild" name="textfild">
+          </div>
+          <div class="loca_area">
+            <p>Available Location</p>
+            <select class="country" name="">
+              <option value="">korea</option>
+            </select>
+            <select class="state" name="">
+              <option value="">seoul</option>
+              <option value="">busan</option>
+            </select>
+          </div>
+          <div class="lang_area">
+            <p>Language</p><input type="text" id="lang" name="lang">
+          </div>
+          <div class="date_area">
+            <p>Shotting Date</p>
+            <input type="date">
+          </div>
+
+          <div class="model_area">
+            <div class="model_title">
+              <p>Model</p>
+            </div>
+            <div class="gender_area">
+              <p>Gender</p>
+              <input type="radio" id="all" name="gender" value="all"><p>All</p>
+              <input type="radio" id="male" name="gender" value="male"><p>Male</p>
+              <input type="radio" id="female" name="gender" value="female"><p>Female</p>
+            </div>
+            <div class="age_area">
+              <p>Age</p>
+              <input type="number" id="age_start" name="age_start" min="0">
+              <p>-</p>
+              <input type="number" id="age_end" name="age_end" min="0">
+              <p>year</p>
+            </div>
+            <div class="height_area">
+              <p>Height</p>
+              <input type="number" id="h_start" name="h_start" min="0">
+              <p>-</p>
+              <input type="number" id="h_end" name="h_end" min="0">
+              <p>cm</p>
+            </div>
+            <div class="weight_area">
+              <p>Weight</p>
+              <input type="number" id="w_start" name="w_start" min="0">
+              <p>-</p>
+              <input type="number" id="w_end" name="w_end" min="0">
+              <p>kg</p>
+            </div>
+            <div class="topsize_area">
+              <p>Top Size</p>
+              <input type="number" id="top_start" name="top_start" min="0">
+              <p>-</p>
+              <input type="number" id="top_end" name="top_end" min="0">
+            </div>
+            <div class="bottomsize_area">
+              <p>Bottom Size</p>
+              <input type="number" id="bottom_start" name="bottom_start" min="0">
+              <p>-</p>
+              <input type="number" id="bottom_end" name="bottom_end" min="0">
+            </div>
+            <div class="shoesize_area">
+              <p>Shoe Size</p>
+              <input type="number" id="shoe_start" name="shoe_start" min="0">
+              <p>-</p>
+              <input type="number" id="shoe_end" name="shoe_end" min="0">
+            </div>
+            <div class="ethnicity_area">
+              <p>Ethnicity</p><br>
+              <input type="radio" id="all" name="ethnicity" value="all"><p>All</p>
+              <input type="radio" id="american" name="ethnicity" value="american"><p>American</p>
+              <input type="radio" id="european" name="ethnicity" value="european"><p>European</p>
+            </div>
+            <div class="eyecolor_area">
+              <p>Eye Color</p><br>
+              <input type="radio" id="all" name="eyecolor" value="all"><p>All</p>
+              <input type="radio" id="black" name="eyecolor" value="black"><p>Black</p>
+              <input type="radio" id="blue" name="eyecolor" value="blue"><p>Blue</p>
+            </div>
+            <div class="haircolor">
+              <p>Hair Color</p><br>
+              <input type="radio" id="all" name="haircolor" value="all"><p>All</p>
+              <input type="radio" id="black" name="haircolor" value="black"><p>Black</p>
+              <input type="radio" id="blonde" name="haircolor" value="blonde"><p>Blonde</p>
+            </div>
+            <div class="field">
+              <p>Field</p><br>
+              <input type="radio" id="fashion" name="field" value="fashion"><p>Fashion</p>
+              <input type="radio" id="hair/makeup" name="field" value="hair/makeup"><p>Hair/Makeup</p>
+              <input type="radio" id="shoe" name="field" value="shoe"><p>Shoe</p>
+            </div>
+            <div class="textfild_area">
+              <input type="text" id="textfild" name="textfild">
+            </div>
+          </div>
+
+          <div class="photographer_area">
+            <div class="photographer_title">
+              <p>Photographer</p>
+            </div>
+            <div class="field">
+              <p>Field</p><br>
+              <input type="radio" id="fashion" name="field" value="fashion"><p>Fashion</p>
+              <input type="radio" id="hair/makeup" name="field" value="hair/makeup"><p>Hair/Makeup</p>
+              <input type="radio" id="shoe" name="field" value="shoe"><p>Shoe</p>
+            </div>
+            <div class="retouch">
+              <p>Retouch</p><br>
+              <input type="radio" id="y" name="retouch" value="y"><p>Yes</p>
+              <input type="radio" id="n" name="retouch" value="n"><p>No</p>
+            </div>
+            <div class="textfild_area">
+              <input type="text" id="textfild" name="textfild">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="save_btn">
+        <button type="button" name="button">save</button>
+      </div>
+
+    </main>
+</body>
+
+</html>
