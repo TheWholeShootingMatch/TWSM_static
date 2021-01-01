@@ -5,6 +5,22 @@
 </head>
 
 <body>
+  <!-- new note는 모달창. 평소엔 오퍼시티 100 -->
+  <div class="new_note">
+    <div class="new_header">
+      <input type="text" name="new_title" value="NoTitle">
+      <select name="category">
+        <option value="">category</option>
+        <option value="">Personnel</option>
+        <option value="">WhiteBoard</option>
+      </select>
+    </div>
+
+    <input type="text" name="new_input" value="Leave a message">
+
+    <button type="button" name="button">save</button>
+  </div>
+
   <div class="tct_sidebar">
 
   </div>
@@ -32,7 +48,7 @@
 
           <div class="note">
             <div class="note_title">
-              <p>Personnel</p>
+              <p class="category_tag">Personnel</p>
               <p>모델 한 명 추가</p>
             </div>
             <div class="note_detail">
