@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+        </div>
+        <nav class="header_nav">
+            <ul>
+                <li>model</li>
+                <li>photographer</li>
+                <li>collaborate</li>
+                <li>mypage</li>
+                <li>sign in</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="side_nav">
+      <select name="person">
+        <option value="all" selected>All</option>
+        <option value="model">Model</option>
+        <option value="photographer">Photographer</option>
+      </select>
+      <select name="gender">
+        <option value="all" selected>Gender-All</option>
+        <option value="mail">Mail</option>
+        <option value="femail">Femail</option>
+      </select>
+      <select name="country">
+        <option value="all" selected>Contry-All</option>
+        <option value="korea">Korea</option>
+        <option value="vietnam">Vietnam</option>
+      </select>
+    </div>
+
+    <main>
+      <div class="sorting_bar">
+        <p>sort as </p>
+        <select name="sort">
+          <option value="popular" selected>popular</option>
+          <option value="latest">lastest</option>
+        </select>
+      </div>
+      <button class="new_btn">New</button>
+      <div class="list_num">
+        <p>total : 1</p>
+      </div>
+      <div class="search_bar">
+        <input placeholder="search">
+        <button>search</button>
+      </div>
+      <div class="content">
+        <table>
+          <thead>
+          <tr>
+            <th>index</th>
+            <th>subject</th>
+            <th>writer</th>
+            <th>date</th>
+            <th>count</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>01</td>
+            <td>find model</td>
+            <td>ABC</td>
+            <td>2020/12/24</td>
+            <td>10</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="page_list">
+        <ul class="pagination">
+          <li><a href="#">1</a></li>
+      </div>
+    </main>
+</body>
+
+</html>
